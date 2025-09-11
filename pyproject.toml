@@ -1,0 +1,7 @@
+[project]
+name = "ecommerce-rag"
+version = "0.1.0"
+description = "RAG System for E-commerce"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []

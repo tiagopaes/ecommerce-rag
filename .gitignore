@@ -1,0 +1,19 @@
+# venv
+.venv/
+# dotenv
+.env
+# python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+.pytest_cache/
+# OS
+.DS_Store
+# vector db
+.chroma/
+# notebooks (se usar)
+*.ipynb_checkpoints/
+*.egg-info/
+*.dist-info/
