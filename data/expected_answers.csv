@@ -1,0 +1,16 @@
+question,expected_product_ids,expected_categories,expected_brands,min_similarity_score
+"Find Samsung Galaxy smartphones","E001,E004,E007,E010,E013,E016,E019,E022,E025,E028,E031,E034,E037,E040,E043,E046,E049","smartphone","Samsung",0.8
+"Show me Apple products under 1000 USD","E052,E054,E055","tablet,wearable,accessory","Apple",0.7
+"What laptops are available?","E003,E006,E009,E012,E015,E018,E021,E024,E027,E030,E033,E036,E039,E042,E045,E048,E053","laptop","Dell,Apple",0.8
+"I need a smartphone with good camera","E001,E002,E004,E005,E007,E008,E010,E011,E013,E014,E016,E017,E019,E020,E022,E023,E025,E026,E028,E029,E031,E032,E034,E035,E037,E038,E040,E041,E043,E044,E046,E047,E049,E050,E051","smartphone","Samsung,Google,Apple",0.7
+"Show me tablets and accessories","E052,E055","tablet,accessory","Apple",0.7
+"What are the most expensive products?","E053","laptop","Apple",0.6
+"Find budget smartphones under 500 USD","E002,E005,E008,E011,E014,E017,E020,E023,E026,E029,E032,E035,E038,E041,E044,E047,E050","smartphone","Google",0.7
+"I want a phone with 256GB storage","E001,E004,E007,E010,E013,E016,E019,E022,E025,E028,E031,E034,E037,E040,E043,E046,E049","smartphone","Samsung",0.8
+"Show me products with AMOLED screens","E001,E004,E007,E010,E013,E016,E019,E022,E025,E028,E031,E034,E037,E040,E043,E046,E049","smartphone","Samsung",0.7
+"What Google Pixel phones do you have?","E002,E005,E008,E011,E014,E017,E020,E023,E026,E029,E032,E035,E038,E041,E044,E047,E050","smartphone","Google",0.8
+"Show me all Apple devices","E051,E052,E053,E054,E055","smartphone,tablet,laptop,wearable,accessory","Apple",0.8
+"I need a high-end smartphone with 200MP camera and 256GB storage","E001,E004,E007,E010,E013,E016,E019,E022,E025,E028,E031,E034,E037,E040,E043,E046,E049","smartphone","Samsung",0.9
+"What professional laptops with Intel processors are available?","E003,E006,E009,E012,E015,E018,E021,E024,E027,E030,E033,E036,E039,E042,E045,E048","laptop","Dell",0.8
+"Find products that don't exist","","","",0.3
+"Show me gaming laptops","","","",0.3

@@ -1,0 +1,11 @@
+pandas>=2.3
+langchain>=0.2
+langchain-community>=0.2
+langchain-openai>=0.1
+langchain-chroma>=0.1
+chromadb>=0.5
+openai>=1.47
+tiktoken>=0.7
+python-dotenv>=1.0
+rich>=13.7
+typer>=0.12
