@@ -1,0 +1,17 @@
+question,expected_product_ids,expected_categories,expected_brands,min_similarity_score
+Show me Dell laptops with 16GB RAM,"E003,E006,E009,E012,E015,E018,E021,E024,E027,E030,E033,E036,E039,E042,E045,E048",laptop,Dell,0.8
+Which smartphones are under 500 USD?,"E002,E005,E008,E011,E014,E017,E020,E023,E026,E029,E032,E035,E038,E041,E044,E047,E050",smartphone,,0.7
+Any Apple products available?,"E051,E052,E053,E054,E055",,Apple,0.7
+Show me laptops ready to ship,"E003,E006,E009,E012,E015,E018,E021,E024,E027,E030,E033,E036,E039,E042,E045,E048,E053",laptop,,0.7
+Which smartphones have 256GB storage?,"E001,E004,E007,E010,E013,E016,E019,E022,E025,E028,E031,E034,E037,E040,E043,E046,E049",smartphone,,0.8
+Find Google phones with OLED screen,"E002,E005,E008,E011,E014,E017,E020,E023,E026,E029,E032,E035,E038,E041,E044,E047,E050",smartphone,Google,0.8
+List all brand new sealed laptops,"E003,E006,E009,E012,E015,E018,E021,E024,E027,E030,E033,E036,E039,E042,E045,E048,E053",laptop,,0.7
+Show me Samsung products under 1200 USD,"E001,E004,E007,E010,E013,E016,E019,E022,E025,E028,E031,E034,E037,E040,E043,E046,E049",,Samsung,0.8
+Which devices have long-lasting battery life?,"E001,E002,E003,E004,E005,E006,E007,E008,E009,E010,E011,E012,E013,E014,E015,E016,E017,E018,E019,E020,E021,E022,E023,E024,E025,E026,E027,E028,E029,E030,E031,E032,E033,E034,E035,E036,E037,E038,E039,E040,E041,E042,E043,E044,E045,E046,E047,E048,E049,E050,E051,E053",,,0.7
+Find Apple tablets,E052,tablet,Apple,0.7
+Find Apple laptops,E053,laptop,Apple,0.7
+Find Apple accessories,E055,accessory,Apple,0.7
+Find Samsung smartphones,"E001,E004,E007,E010,E013,E016,E019,E022,E025,E028,E031,E034,E037,E040,E043,E046,E049",smartphone,Samsung,0.7
+Find Apple smartphones,E051,smartphone,Apple,0.7
+Find Apple wearables,E054,wearable,Apple,0.7
+Find Google smartphones,"E002,E005,E008,E011,E014,E017,E020,E023,E026,E029,E032,E035,E038,E041,E044,E047,E050",smartphone,Google,0.7
