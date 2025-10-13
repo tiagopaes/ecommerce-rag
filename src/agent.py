@@ -6,6 +6,7 @@ Uses RAG as a tool with metadata filtering for better results
 
 import json
 import logging
+import os
 from typing import Any, Dict, List, Optional, Type
 
 from dotenv import load_dotenv
@@ -16,11 +17,20 @@ from langchain.tools import BaseTool
 from langchain_chroma import Chroma
 from langchain_core.messages import AIMessage
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
+from langfuse import Langfuse
+from langfuse.langchain import CallbackHandler
 from pydantic import BaseModel, Field
 
 # Config
 load_dotenv()
 logging.basicConfig(level=logging.WARNING)
+
+langfuse = Langfuse(
+    public_key=os.getenv("LANGFUSE_PUBLIC_KEY"),
+    secret_key=os.getenv("LANGFUSE_SECRET_KEY"),
+    host="https://us.cloud.langfuse.com"
+)
+langfuse_handler = CallbackHandler()
 
 class ProductSearchInput(BaseModel):
     """Input for product search tool"""
@@ -223,7 +233,8 @@ class RAGAgent:
             tools=[self.search_tool],
             verbose=True,
             max_iterations=3,
-            handle_parsing_errors=True
+            handle_parsing_errors=True,
+            callbacks=[langfuse_handler]
         )
 
         return agent_executor

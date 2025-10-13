@@ -9,3 +9,4 @@ tiktoken>=0.7
 python-dotenv>=1.0
 rich>=13.7
 typer>=0.12
+langfuse>=0.1.2
